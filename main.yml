@@ -64,11 +64,9 @@
         state: present
         key: "{{ lookup('file', '{{ new_key }}.pub')  }}"
 
-
     - name: "Creating SSH Connection Command"
       set_fact:
         ssh_connection: "ssh -o StrictHostKeyChecking=no -i {{ new_key }} {{ ansible_user }}@{{ ansible_host }} -p {{ ansible_port }} 'uptime'"
-
 
     - name: "Checking Connectivity To EC2 Using Newly Added Key"
       ignore_errors: true
@@ -88,18 +86,15 @@
         key: "{{ lookup('file', '{{ new_key }}.pub')  }}"
         exclusive: true
     
-
     - name: "Print Old authorized_keys file"
       debug:
         msg: "SSH Public Keys in Old authorized_keys file are '{{ oldauth.stdout }}'"
-
 
     - name: "Print New authorized_keys file"
       shell: cat /home/"{{system_user}}"/.ssh/authorized_keys
       register: newauth
     - debug:
         msg: "SSH Public Keys in New authorized_keys file are '{{ newauth.stdout }}'"
-
 
     - name: "Renaming new Private Key Locally"
       delegate_to: localhost
