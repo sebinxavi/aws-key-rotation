@@ -10,6 +10,14 @@ For encrypting and decrypting login information, EC2 Key Pairs are used: Public 
 To connect to your instance, you must first generate a key pair, identify the name of that key pair when the instance is launched, and provide information about the private key when connecting.
 As a AWS security best practice, it is necessary to regularly rotate EC2 key pairs within your account. 
 
+### Before Running the Ansible Playbook
+
+![alt text](https://i.ibb.co/https://i.ibb.co/MPtG4pH/Before-Running-Playbook.png)
+
+### After Running the Ansible Playbook
+
+![alt text](https://i.ibb.co/https://i.ibb.co/JCQYNYY/After-Running-Playbook.png)
+
 ## Technology Used
 - ansible - version 2.9.20
 
