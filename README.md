@@ -12,8 +12,9 @@ As a AWS security best practice, it is necessary to regularly rotate EC2 key pai
 
 ### Before Running the Ansible Playbook
 <p align="center">
-  <img width="300" height="600" src="https://i.ibb.co/ynbHcwZ/Before-Running-Playbook1.png">
+  <img width="400" height="550" src="https://i.ibb.co/ynbHcwZ/Before-Running-Playbook1.png">
 </p>
+
 
 ### After Running the Ansible Playbook
 <p align="center">
