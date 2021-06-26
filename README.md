@@ -260,7 +260,7 @@ If you need to replace the ssh key without changing the key name, please refer t
 
 #### Click on the below image to view my youtube video
 
-[![Alt text](https://img.youtube.com/vi/ocfrFrFc5X4/0.jpg)](https://www.youtube.com/watch?v=ocfrFrFc5X4)
+[![Alt text](< img width="900" height="550" https://img.youtube.com/vi/ocfrFrFc5X4/0.jpg) >](https://www.youtube.com/watch?v=ocfrFrFc5X4)
 
 ## Author
 Created by [@sebinxavi](https://www.linkedin.com/in/sebinxavi/) - feel free to contact me and advise as necessary!
