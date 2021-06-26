@@ -196,11 +196,11 @@ The playbook has been written below::
 ### Installation of Ansbile and Boto (In Ubuntu)
 
 ~~~sh
-- apt-get update
-- apt-get install python3
-- apt-get install python3-pip
-- pip3 install ansible
-- pip3 install boto3 botocore
+$ apt-get update
+$ apt-get install python3
+$ apt-get install python3-pip
+$ pip3 install ansible
+$ pip3 install boto3 botocore
 ~~~
 ![alt text](https://i.ibb.co/bdBtdhk/1.png)
 
@@ -209,8 +209,8 @@ The playbook has been written below::
 ##### 1. Pull the code from github repository
 
 ~~~
-git clone https://github.com/sebinxavi/aws-key-rotation.git
-cd aws-key-rotation
+$ git clone https://github.com/sebinxavi/aws-key-rotation.git
+$ cd aws-key-rotation
 ~~~
 ![alt text](https://i.ibb.co/9b76FTv/2.png)
 
@@ -237,17 +237,17 @@ ssh_port: Add the SSH port number
 
 ##### 3. Run the Ansible playbook
 ~~~
-ansible-playbook main.yml
+$ ansible-playbook main.yml
 ~~~
 
 ![alt text](https://i.ibb.co/Vmb7rXZ/4.png)
 
 ##### 4. Try to SSH to Server using Old SSH key and New SSH key
 ~~~
-ssh -i old-key.pem user@{server-IP}}
+$ ssh -i old-key.pem user@{server-IP}}
 ~~~
 ~~~
-ssh -i new-key.pem ubuntu@{server-IP}}
+$ ssh -i new-key.pem ubuntu@{server-IP}}
 ~~~
 ![alt text](https://i.ibb.co/rcnVd9P/5.png)
 
