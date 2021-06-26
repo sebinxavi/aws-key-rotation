@@ -225,12 +225,18 @@ system_user: "<>"
 ssh_port: 22
 ~~~
 
-access_key: Add your AWS access key.
-secret_key: Add your AWS secret key.
+access_key: Add your AWS access key
+
+secret_key: Add your AWS secret key
+
 region: Provide the AWS region in which EC2 instances are hosted. Example, "ap-south-1"
+
 old_key: Add your SSH key name and upload the SSH private key in the same location with 400 permission
+
 new_key: Add your new key name to be created
+
 system_user: Add the System user
+
 ssh_port: Add the SSH port number
 
 ![alt text](https://i.ibb.co/cwjyg2b/3.png)
