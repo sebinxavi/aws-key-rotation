@@ -258,8 +258,6 @@ If you need to replace the ssh key without changing the key name, please refer t
 
 ## Demonstration Video
 
-#### Click on the below image to view my youtube video
-
 <a href="https://www.youtube.com/watch?v=ocfrFrFc5X4" target="_blank">
  <img src="https://i.ibb.co/tqb49S4/AWS-KEY-ROTATION.png" alt="Watch the video" width="800" height="450" border="10" />
 </a>
