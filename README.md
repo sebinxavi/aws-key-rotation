@@ -193,7 +193,7 @@ The playbook has been written below::
 
 ## Setup
 
-### Installation of Ansbile and Boto (In Ubuntu)
+### Installation of Ansible and Boto (In Ubuntu)
 
 ~~~sh
 $ apt-get update
